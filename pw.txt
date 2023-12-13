@@ -1,0 +1,144 @@
+Q.1 List out the features of html 5
+
+Solution . 
+
+Certainly! HTML5, the fifth and latest version of the Hypertext Markup Language, comes with several features and improvements over its predecessors. Here are some key features of HTML5:
+
+Semantic Elements:
+<article>, <section>, <nav>, <header>, <footer>, <aside>, <figure>, <figcaption>, <main>: These elements provide a more meaningful structure to web documents.
+
+1 Multimedia Support:
+
+<audio> and <video>: Native support for embedding audio and video content without the need for third-party plugins.
+<source>: Allows specifying multiple media sources for better compatibility.
+Canvas:
+
+<canvas>: A drawing surface for creating graphics, animations, and other visualizations using JavaScript.
+
+2 New Form Elements:
+
+<input> types such as date, email, url, number, range, search, etc.
+<datalist>: Provides a predefined list of options for input elements.
+
+3 Offline Web Applications:
+
+Application Cache (manifest attribute): Allows creating web applications that work offline by caching resources.
+Web Storage:
+
+localStorage and sessionStorage: Provides a way to store data on the client side.
+
+4 Geolocation API:
+
+Allows obtaining the geographical location of the user's device.
+
+5 Web Workers:
+
+Enables the use of background scripts to perform tasks concurrently with the main script, improving performance.
+
+6 WebSocket:
+
+Provides a full-duplex communication channel over a single, long-lived connection, allowing real-time data transfer.
+
+7 Drag and Drop:
+
+Native support for drag-and-drop operations within web applications.
+
+8 Responsive Design:
+
+Media queries allow developers to create websites that adapt to different screen sizes and devices.
+Improved Parsing Rules:
+
+HTML5 parsers are designed to handle documents written in error, making it more forgiving.
+
+
+
+Q.2 2. What are HTML Entities? List out 5 commonly used HTML entities.
+
+Solution .
+
+HTML entities are special codes used to represent reserved characters in HTML. These characters have special meanings in HTML and may not be displayed properly if used directly. Instead,
+ you use their corresponding HTML entity codes to ensure correct rendering. Here are five commonly used HTML entities:
+
+&lt;: Represents the less-than symbol <.
+&gt;: Represents the greater-than symbol >.
+&amp;: Represents the ampersand &.
+&quot;: Represents the double quotation mark ".
+&apos;: Represents the apostrophe (single quotation mark) '.
+
+
+
+Q.3 3? Define accessibility in the context of web development? Discuss why it's essential to create accessible
+websites and how it benefits different user groups
+
+Solution-
+
+
+Accessibility in web development refers to the practice of designing and developing websites and applications in a way that ensures people with disabilities can perceive, understand, navigate, and interact with the content effectively. The goal is to make digital experiences inclusive, providing equal access and opportunities for all users, regardless of their abilities or disabilities.
+Key Aspects of Web Accessibility:
+
+1 Perceivable:
+
+
+Information and user interface components must be presented in a way that can be perceived by all users, regardless of their abilities. This includes providing text alternatives for non-text content, captions for multimedia, and ensuring content is adaptable to different sensory modalities.
+Operable:
+All users should be able to interact with and navigate the website. This involves keyboard accessibility, providing sufficient time for users to read and complete tasks, and avoiding content that could cause seizures or physical discomfort.
+Understandable:
+Information and operation of the user interface must be clear and straightforward. This includes legible and readable text, consistent navigation, and input assistance to avoid errors.
+Robust:
+
+Content should be developed using technologies that are compatible with current and future user agents, including assistive technologies. This ensures that the website remains accessible as technologies evolve.
+Importance of Web Accessibility:
+
+2 Inclusivity:
+
+
+Accessibility ensures that people with various disabilities, including visual, auditory, motor, and cognitive impairments, can access and use digital content. It promotes inclusivity and equal opportunities for everyone.
+
+
+3  Legal and Ethical Compliance:
+
+Many countries have legal requirements and standards (e.g., WCAG - Web Content Accessibility Guidelines) that mandate websites to be accessible. Adhering to these standards is not only a legal obligation but also an ethical responsibility.
+Expanded Audience Reach:
+Creating accessible websites expands the potential audience. It benefits not only users with disabilities but also older individuals, users with temporary impairments, and those using diverse devices.
+
+
+3 Search Engine Optimization (SEO):
+
+Some accessibility practices, such as providing descriptive alt text for images, can improve the website's SEO. Search engines value websites that are user-friendly and inclusive.
+
+
+4 Enhanced User Experience:
+
+Accessible design often leads to a better user experience for all users. Clear navigation, readable text, and well-organized content benefit everyone, regardless of their abilities.
+
+
+5 Corporate Reputation:
+
+Demonstrating a commitment to accessibility positively impacts a company's reputation. It reflects a dedication to social responsibility and inclusivity.
+
+
+
+Q.4 list any 3 ways which help us in improving the accessibility of HTML
+
+Solution-
+
+        1  Use Semantic HTML TAGS :   use Semantic tag like <article> , <header> , <nav> , <footer> 
+      
+      provide a clear and meaningful document structure which can be beneficial for users relying on 
+      screen readers or other assistive technologies Semantic HTML helps in creating a well-organized 
+      and easily navigable document for all users.
+  
+       
+       2 Provide Descriptive Text Alternatives: Include descriptive alternative text for non-text content, 
+        
+        such as images, using the alt attribute.This is essential for users who are visually impaired and rely
+         on screen readers to understand the content.
+
+
+      3 Ensure Keyboard Accessibility: Design and test your website to be navigable and usable using only a 
+       
+       keyboard. Many users, including those with motor disabilities, rely on keyboard navigation. 
+       Use the tabindex attribute to control the tab order and ensure that users can navigate through
+        your content logically.
+
+
